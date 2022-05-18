@@ -32,8 +32,40 @@ section{
     font-family: var(--fonte-texto);
     margin-top: 20px;
     margin-left: 20px;
+    font-size: 4.3vw;
 }
 
-section.duplo{
-    
+section.duplo > p{
+    padding-bottom: 25px;
+}
+
+section.imagem{
+    margin-left: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    padding: 10px;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.397);
+}
+
+section#flor{
+    background-image: url('imagens/flor.jpg');
+}
+
+section#livro{
+    background-image: url('imagens/livro.jpg');
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    font-family: var(--fonte-padrao);
+    padding: 20px;
+    text-align: center;
+    font-size: 3vw;
 }
