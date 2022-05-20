@@ -12,6 +12,17 @@
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
 header{
     background-color: black;
     color: #fff;
@@ -41,6 +52,7 @@ section.duplo > p{
 
 section.imagem{
     margin-left: 0px;
+    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.322);
     background-size: cover;
     background-attachment: fixed;
     background-position: center right;
